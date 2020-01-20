@@ -74,7 +74,7 @@ module.exports = new Class({
 	},
   initialize: function(options){
 		options = options || {};
-		options = Object.merge(Conf, options);
+		// options = Object.merge(Conf, options);
 
 		this.parent(options);//override default options
 
