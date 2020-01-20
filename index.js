@@ -8,9 +8,9 @@ const path = require('path'),
 //       ? require('../../../../../config/poll/http/prod.conf')
 //       : require('../../../../../config/poll/http/dev.conf');
 
-const debug = require('debug')('js-pipeline.input.httpClient'),
-      debug_events = require('debug')('js-pipeline.input.httpClient:Events'),
-      debug_internals = require('debug')('js-pipeline.input.httpClient:Internals')
+const debug = require('debug')('js-pipeline.input.http-client'),
+      debug_events = require('debug')('js-pipeline.input.http-client:Events'),
+      debug_internals = require('debug')('js-pipeline.input.http-client:Internals')
 
 module.exports = new Class({
   Extends: App,
